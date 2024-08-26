@@ -1,0 +1,12 @@
+Version control adalah sebuah system yanag merekam perubahan pada file dari
+waktu ke waktu, sehingga kita bisa melihat versi sebelumnya jika diinginkan 
+version contool dapat mendukung untuk berbagai file
+git init untuk instalasi atau memilih folder yang akan diupload
+git add (nama file)untuk memilih semua didalam folder untuk diupload
+git commit -m "apa kek dah gede untuk membrikan deskripsi pada postingan/upload
+git config --global user.name/user.email [username/email] mengatur username dan email pada github pada postingan/upload
+secara global
+git branch -M main membuat wadah untuk menyimpan semua folder/file dalam repo github
+git remote add origin https://github.com/JohnObama24/apaKakDahGede.git melkukan remote dari device pribadi pada github 
+git push -u origin main mendorong/mengupload semua file/folder yang sudah kita pilih {add} dan kita berikan deskripsi
+{commit} ke repositpry yang sudah diinstalisasi pada branch yang sudah ditentukan sebelumnya 
